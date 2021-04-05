@@ -70,6 +70,8 @@ function App() {
   );
 }
 
+
+
 Movie.propTypes = {
   title:PropTypes.string.isRequired,
   picture:PropTypes.string.isRequired,
