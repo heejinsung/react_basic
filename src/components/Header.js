@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import "./Movie.css";
 
 //함수나 클래스명 첫글자 대문자로해야함!
 // component를 써서 클래스화 시키는것이 일반적
@@ -12,7 +12,7 @@ class Header extends Component{
      return (
        //최상위 태그는 모든 태그를 포함하는 하나의 태그만 있어야 한다.
        <header>
-         <h4>This is Header Area..</h4>
+         <h4>React Movies</h4>
        </header>
      );
    }
